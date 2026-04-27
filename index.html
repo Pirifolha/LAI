@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>LLMs</title>
+</head>
+
+<body>
+    <article class="Intro">
+        <h2 id="Title">LLMs</h2>
+        <p id="Info">Large Language Models (LLMs) are advanced artificial intelligence systems designed to understand and generate human-like text based on massive datasets. These models are trained on vast amounts of text data, allowing them to grasp complex language patterns, respond to questions, assist in writing, translate languages, and even create stories. LLMs, like OpenAI's GPT and Google's BERT, have become crucial tools in fields like customer service, content creation, and research, transforming how we interact with technology.</p>
+        <div class="learn-more-container">
+            <p>Learn More</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </article>
+
+    <div class="timeline-container">
+        <h1 class="timeline-title">The History of LLMs</h1>
+        <section id="timeline" class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-item-content">
+                    <h3>1967</h3>
+                    <h4>ELIZA: The First Language Model</h4>
+                    <p>Developed by Joseph Weizenbaum, ELIZA was a pioneering program that simulated human conversation by using simple pattern-matching techniques. Acting as a virtual therapist, it rephrased user inputs to appear conversational, giving the illusion of understanding. ELIZA highlighted early possibilities for AI in human interaction, inspiring future advancements in natural language processing.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-item-content">
+                    <h3>1997</h3>
+                    <h4>LSTM – Solving Long-Term Dependency Issues</h4>
+                    <p>The Long Short-Term Memory (LSTM) model, created by Sepp Hochreiter and Jürgen Schmidhuber, was a major step forward in language modeling. By addressing limitations in recurrent neural networks (RNNs), LSTM allowed for long-term memory retention, making it ideal for processing extended sequences in tasks like speech recognition, translation, and text generation. LSTM became foundational for many future NLP models.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-item-content">
+                    <h3>2010</h3>
+                    <h4>Stanford CoreNLP – A Comprehensive NLP Toolkit</h4>
+                    <p>Stanford CoreNLP provided an accessible, open-source toolkit for natural language processing, including tools for tasks like part-of-speech tagging, sentiment analysis, and dependency parsing. This Java-based suite accelerated research and practical applications in NLP by offering a powerful, unified framework, making complex language processing available to a broader range of users.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-item-content">
+                    <h3>2011</h3>
+                    <h4>Google Brain – Scaling Deep Learning</h4>
+                    <p>The Google Brain project, spearheaded by Andrew Ng, Jeff Dean, and Greg Corrado, demonstrated the potential of large-scale deep learning. By leveraging vast data and computational resources, Google Brain achieved breakthroughs in AI, like teaching a model to recognize objects from unlabeled video data. This project laid the groundwork for deep learning in industry, influencing many modern LLMs.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-item-content">
+                    <h3>2017</h3>
+                    <h4>Transformer Architecture – The Foundation of Modern LLMs</h4>
+                    <p>The Transformer architecture, introduced by Google in “Attention Is All You Need,” revolutionized sequence processing by allowing models to capture relationships across long distances in text through self-attention. This enabled faster training and better scalability than previous models like LSTMs, becoming the backbone of modern NLP. Transformers paved the way for powerful models like BERT, GPT, and T5.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-item-content">
+                    <h3>2020</h3>
+                    <h4>GPT-3 – A New Era of Language Models</h4>
+                    <p>OpenAI’s GPT-3, with 175 billion parameters, set a new benchmark for language models. Capable of generating text that mimicked human language with impressive fluency, GPT-3 demonstrated the potential of scaling models for multi-purpose NLP. From answering questions to writing essays, GPT-3 showcased the transformative power of large language models and opened doors to even larger and more versatile AI applications.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="button-container">
+        <p class="button-message">Try out AI Chat!</p>
+        <button id="show-chatbox">LLM chat simulation</button>
+    </div>
+
+    <div class="chatbox" id="chatbox">
+        <div class="chatbox-header">
+            <h4>Chat with AI</h4>
+        </div>
+        <div class="chatbox-body">
+            <div class="chatbox-messages" id="chatbox-messages">
+            </div>
+        </div>
+        <div class="chatbox-footer">
+            <input type="text" id="chatbox-input" placeholder="Type a message...">
+            <button id="chatbox-send">Send</button>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
