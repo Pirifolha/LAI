@@ -1,55 +1,56 @@
 # LLMs History – Interactive Website
 
 ## Overview
-Este projeto consiste num website interativo que explora a história dos Large Language Models (LLMs). O objetivo é apresentar, de forma visual e envolvente, a evolução desta tecnologia — desde os primeiros modelos até aos sistemas modernos.
+This project is an interactive website that explores the history of Large Language Models (LLMs). The goal is to present, in a visual and engaging way, the evolution of this technology — from early models to modern systems.
 
-O site combina design visual com interatividade, permitindo ao utilizador navegar por uma timeline histórica e experimentar uma simulação simples de chat com IA.
-
----
-
-## Objetivos
-- Explicar o que são LLMs de forma acessível  
-- Apresentar os principais marcos históricos  
-- Criar uma experiência interativa para o utilizador  
-- Aplicar conceitos de frontend (HTML, CSS e JavaScript)  
+The website combines visual design with interactivity, allowing users to navigate through a historical timeline and experiment with a simple AI chat simulation.
 
 ---
 
-## Funcionalidades
+## Goals
+- Explain what LLMs are in an accessible way  
+- Present key historical milestones  
+- Create an interactive user experience  
+- Apply frontend concepts (HTML, CSS, and JavaScript)  
 
-### Introdução
-- Explicação breve sobre LLMs
-- Layout com foco visual e tipografia futurista
+---
 
-### Timeline Interativa
-- Linha temporal com eventos chave:
+## Features
+
+### Introduction
+- Brief explanation of LLMs
+- Layout focused on visual design and futuristic typography
+
+### Interactive Timeline
+- Timeline with key events:
   - ELIZA (1967)
   - LSTM (1997)
   - Stanford CoreNLP (2010)
   - Google Brain (2011)
   - Transformers (2017)
   - GPT-3 (2020)
-- Animações de entrada ao fazer scroll
+- Scroll-based entry animations
 
-### Simulação de Chat com IA
-- Interface de chat interativa
-- Caixa de input para mensagens
-- Respostas simuladas de um modelo de linguagem
-
----
-
-## Tecnologias Utilizadas
-
-- **HTML5** – estrutura do site  
-- **CSS3** – estilos, layout e animações  
-- **JavaScript (jQuery)** – interatividade e manipulação do DOM  
-- **Google Fonts (Orbitron)** – tipografia  
-- **Font Awesome** – ícones  
+### AI Chat Simulation
+- Interactive chat interface
+- Input field for user messages
+- Simulated responses from a language model
 
 ---
 
-## Estrutura do Projeto
+## Technologies Used
 
+- **HTML5** – site structure  
+- **CSS3** – styling, layout, and animations  
+- **JavaScript (jQuery)** – interactivity and DOM manipulation  
+- **Google Fonts (Orbitron)** – typography  
+- **Font Awesome** – icons  
+
+---
+
+## Project Structure
+
+```
 LAI/
 │── index.html
 │── css/
@@ -58,50 +59,51 @@ LAI/
 │   ├── script.js
 │   └── jquery-3.7.1.min.js
 │── images/
-│   └── (imagens utilizadas no site)
+│   └── (project images)
+```
 
 ---
 
-## Como Executar
+## How to Run
 
-1. Fazer download ou clone do repositório  
-2. Abrir o ficheiro `index.html` no browser  
+1. Download or clone the repository  
+2. Open the `index.html` file in your browser  
 
-> Não é necessário servidor — o projeto corre localmente
+> No server required — the project runs locally
 
 ---
 
 ## Design
 
-O design segue uma estética:
-- Futurista
-- Minimalista
-- Inspirada em tecnologia e IA  
+The design follows a:
+- Futuristic aesthetic
+- Minimalist approach
+- Technology-inspired style  
 
-Inclui:
-- Gradientes
-- Tipografia digital (Orbitron)
-- Componentes centrados na experiência do utilizador  
-
----
-
-## Contexto Académico
-
-Este projeto foi desenvolvido no âmbito da licenciatura em Audiovisual e Multimédia, com foco na criação de experiências digitais interativas.
+Includes:
+- Gradients
+- Digital typography (Orbitron)
+- Components focused on user experience
 
 ---
 
-## Possíveis Melhorias Futuras
+## Academic Context
 
-- Integração com API real de LLM  
-- Melhorar a lógica do chat  
-- Tornar o site responsivo para mobile  
-- Adicionar mais eventos à timeline  
-- Animações mais avançadas  
+This project was developed as part of a Bachelor's degree in Audiovisual and Multimedia, focusing on the creation of interactive digital experiences.
 
 ---
 
-## Autor
+## Future Improvements
+
+- Integration with a real LLM API  
+- Improve chat logic  
+- Make the site responsive for mobile  
+- Add more events to the timeline  
+- More advanced animations  
+
+---
+
+## Author
 
 Miguel Sousa  
 📧 miguelsousa218@gmail.com  
@@ -109,5 +111,6 @@ Miguel Sousa
 
 ---
 
-## Licença
-Este projeto é apenas para fins académicos.
+## License
+
+This project is for academic purposes only.
